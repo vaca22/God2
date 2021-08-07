@@ -7,9 +7,22 @@
 
 import SwiftUI
 
+var myString="fuck"
+
+
+
+func fuckyou()->String{
+    var s=0
+    for i in 0...100{
+        s+=i
+    }
+    return "fuckyou"+String(s)
+}
+
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text(fuckyou())
             .padding()
     }
 }
